@@ -25,16 +25,7 @@ sudo apt-get install git openssh-server -y
 
 ### Installation
 
-1. Run following commands on your Debian:
-```
-git clone https://github.com/mikim42/ohlone_cs_util
-cd ohlone_cs_util
-sh install_ssh.sh
-```
-
-2. Shutdown the VM
-
-3. Go to VirtualBox Manager,
+1. Go to VirtualBox Manager,
 	- Global Tools > Host Network Manager
 	- Click Create button
 	- Make sure you have 'vboxnet0'
@@ -42,7 +33,7 @@ sh install_ssh.sh
 		- Ex. 192.168.56.10
 	- enable DHCP server
 
-5. Click Debian OS and go to:
+2. Click Debian OS and go to:
 	- Settings > System:
 		- Enable I/O APIC
 	- Settings > Network > Adapter 2:
@@ -50,9 +41,10 @@ sh install_ssh.sh
 		- attached to: Host-only Adapter
 		- name: vboxnet0
 
-6. Power up Debian, run following command on your Debian:
+3. Power up Debian, run following command on your Debian:
 ```
-cd ohlone_cs_util
+git clone https://github.com/mikim42/ohlone_cs_util
+cd ohlone_cs_util/ssh_setup
 sh setup_ssh.sh <ip-addr>
 ```
 

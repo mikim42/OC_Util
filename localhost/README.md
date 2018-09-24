@@ -29,7 +29,7 @@ sudo ln -s ~ home
 
 ## Usage
 
-Open an internet browser, go to [localhost:8080](https://localhost:8080)\
+Open an internet browser, go to [localhost:8080](http://localhost:8080)\
 ![indexpage](./img/indexpage.png)
 
 ## Author

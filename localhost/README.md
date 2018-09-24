@@ -9,15 +9,12 @@ Simple setting, creating home directory in index page
 ### Installation
 
 1. Go to VirtualBox Manager,
-	- Settings >\
+	- Settings > Network > Adapter 1:\
+		- Open Advanced, click Portforwarding\
 	![settings](./img/setting.png)
 	![network](./img/network.png)
-	- Settings > Network > Adapter 1:
-		- Open Advanced
-		- Click Portforwarding
-		- + button on the right\
-		- Host Port: 8080
-		- Guest Port: 80
+		- \+ button on the right\
+		- Host Port: 8080 | Guest Port: 80\
 	![port](./img/port.png)
 
 > You can make your own Host Port but Guest Port must be 80
@@ -32,7 +29,7 @@ sudo ln -s ~ home
 
 ## Usage
 
-Open an internet browser, go to [localhost:8080](localhost:8080)\
+Open an internet browser, go to [localhost:8080](https://localhost:8080)\
 ![indexpage](./img/indexpage.png)
 
 ## Author

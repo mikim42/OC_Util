@@ -26,26 +26,26 @@ sudo apt-get install git openssh-server -y
 ### Installation
 
 1. Go to VirtualBox Manager,
-	- Global Tools > Host Network Manager
-	![globalTools](https://www.github.com/mikim42/ohlone_cs_util/tree/master/ssh_setup/img/globltool.png)
-	- Click Create button
-	![create](https://www.github.com/mikim42/ohlone_cs_util/tree/master/ssh_setup/img/create.png)
+	- Global Tools > Host Network Manager\
+	![globalTools](https://github.com/mikim42/ohlone_cs_util/blob/master/ssh_setup/img/globltool.png)
+	- Click Create button\
+	![create](https://github.com/mikim42/ohlone_cs_util/blob/master/ssh_setup/img/create.png)
 	- Make sure you have 'vboxnet0'
 	- Write down IPv4 (You need it on step 6)
 		- Ex. 192.168.56.10
-	- enable DHCP server
-	![vboxnet](https://www.github.com/mikim42/ohlone_cs_util/tree/master/ssh_setup/img/vboxnet.png)
+	- enable DHCP server\
+	![vboxnet](https://github.com/mikim42/ohlone_cs_util/blob/master/ssh_setup/img/vboxnet.png)
 
 2. Click Debian OS and go to:
-	- Settings > System:
-	![settings](https://www.github.com/mikim42/ohlone_cs_util/tree/master/ssh_setup/img/setting.png)
-		- Enable I/O APIC
-	![apic](https://www.github.com/mikim42/ohlone_cs_util/tree/master/ssh_setup/img/apic.png)
+	- Settings > System:\
+	![settings](https://github.com/mikim42/ohlone_cs_util/blob/master/ssh_setup/img/setting.png)
+		- Enable I/O APIC\
+	![apic](https://github.com/mikim42/ohlone_cs_util/blob/master/ssh_setup/img/apic.png)
 	- Settings > Network > Adapter 2:
 		- Enable Network Adapter
 		- attached to: Host-only Adapter
-		- name: vboxnet0
-	![network](https://www.github.com/mikim42/ohlone_cs_util/tree/master/ssh_setup/img/network.png)
+		- name: vboxnet0\
+	![network](https://github.com/mikim42/ohlone_cs_util/blob/master/ssh_setup/img/network.png)
 
 3. Power up Debian, run following command on your Debian:
 ```

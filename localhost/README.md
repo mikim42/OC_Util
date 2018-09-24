@@ -17,7 +17,7 @@ Simple setting, creating home directory in index page
 		- Host Port: 8080 | Guest Port: 80\
 	![port](./img/port.png)
 
-> You can make your own Host Port but Guest Port must be 80
+> You can make your own Host Port but Guest Port must be 80\
 > Yeah, mine is 8081 because I have two VM OS :)
 
 2. Power up Debian, run following command on your Debian:

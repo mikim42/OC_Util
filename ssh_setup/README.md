@@ -1,13 +1,13 @@
 # How to SSH into VirtualBox Debian
 
-Setting up SSH between Mac OS and VirtualBox Debian
+Setting up SSH between Mac OS and VirtualBox Debian\
 If you are using a different Debian source, it might not work
 
 ## Getting Started
 
-Only works on MAC OS. Sorry Windows users...
-Depends on computers, IP addresses can be different
-Debian default password: debian
+Only works on MAC OS. Sorry Windows users...\
+Depends on computers, IP addresses can be different\
+Debian default password: debian\
 If you don't know password, reset the password with following commands:
 ```
 sudo passwd debian

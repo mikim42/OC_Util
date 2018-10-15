@@ -100,5 +100,5 @@ reset
 
 ## Others
 
-* **[Back to the list](../)**
+* **[Back to the list](..)**
 * **[localhost](../localhost)**

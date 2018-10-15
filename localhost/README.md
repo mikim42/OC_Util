@@ -39,4 +39,5 @@ Open an internet browser, go to [localhost:8080](http://localhost:8080)\
 
 ## Others
 
+* **[HOME](https://github.com/mikim42/ohlone_cs_util)**
 * **[SSH_setup](../ssh_setup)**

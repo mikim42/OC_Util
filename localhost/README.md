@@ -36,3 +36,7 @@ Open an internet browser, go to [localhost:8080](http://localhost:8080)\
 ## Author
 
 * **Mingyun Kim** - [mikim42](https://github.com/mikim42)
+
+## Others
+
+* **[SSH_setup](../ssh_setup)**

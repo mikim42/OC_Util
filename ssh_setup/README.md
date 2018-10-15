@@ -77,7 +77,7 @@ cat ~/.ssh/id_rsa.pub | ssh <debian-username>@<ip_addr> -p 50100 'cat >> .ssh/au
 ```
 cd
 cd ..
-chmod 755 debian debian/.ssh debian/.ssh/authorized_keys
+chmod 775 debian debian/.ssh debian/.ssh/authorized_keys
 sudo service sshd restart
 sudo service ssh restart
 ```

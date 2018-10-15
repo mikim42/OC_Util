@@ -100,5 +100,5 @@ reset
 
 ## Others
 
-* **[Back to the list](..)**
+* **[HOME](https://github.com/mikim42/ohlone_cs_util)**
 * **[localhost](../localhost)**

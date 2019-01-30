@@ -16,8 +16,8 @@ sudo passwd root
 
 ### Prerequisites
 
-You need to install GIT and SSH on Debian
-If you don't have GIT on your Mac, you can download ![here](https://git-scm.com/download/mac)
+You need to install GIT and SSH on Debian\
+If you don't have GIT on your Mac, you can download [here](https://git-scm.com/download/mac)
 ```
 sudo apt-get update -y
 sudo apt-get upgrade -y
